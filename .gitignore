@@ -1,0 +1,12 @@
+# 1. Ignore everything in the repository by default
+*
+
+# 2. Un-ignore all directories (Git needs this to look inside them)
+!*/
+
+# 3. Un-ignore all Jupyter Notebook files
+!*.ipynb
+
+# 4. Un-ignore the .gitignore file itself so it gets saved to the repository
+!README.md
+!.gitignore
